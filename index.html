@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Landing Page monostep</title>
+</head>
+
+<body>
+
+    <h1 data-aos="fade-down">Sepatu Hitam Putih Modern</h1>
+    <p data-aos="fade-up">Nyaman digunakan sehari hari</p>
+    <button class="btn" data-aos="zoom-in">Beli Sekarang</button>
+
+    <div class="swiper" data-aos="fade-up">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://images.unsplash.com/photo-1528701800489-20be3cfe9a0f">
+            </div>
+        </div>
+    </div>
+
+    <div class="card" data-aos="zoom-in">
+        <h2>Sepatu Sport Hitam Putih</h2>
+
+        <img id="imgSepatu" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
+
+        <p class="price">Rp 350.000</p>
+        <p>Warna:</p>
+        <div class="colors">
+            <span class="black active" onclick="gantiWarna(this,'hitam')"></span>
+            <span class="white" onclick="gantiWarna(this,'putih')"></span>
+        </div>
+
+        <p>Ukuran:</p>
+        <div class="sizes">
+            <button>39</button>
+            <button>40</button>
+            <button>41</button>
+            <button>42</button>
+            <button>43</button>
+        </div>
+
+        <br>
+        <button class="btn">Beli Sekarang</button>
+    </div>
+  
+    <div class="profile" data-aos="fade-up">
+        <h3>Data Mahasiswa</h3>
+        <p><b>Nama:</b> Yosep Lango Reda</p>
+        <p><b>Kelas:</b> J</p>
+        <p><b>NIM:</b> 2501010130</p>
+        <p><b>Prodi:</b> Informatika</p>
+    </div>
+
+    <footer>
+        © 2026 Landing Page Sepatu
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
